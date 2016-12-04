@@ -10,6 +10,7 @@
             padding: 1px;
             font-size: 18px;
         }
+#logo {float: left;}
         
         #middle-row {
             background-color: deeppink;
@@ -27,22 +28,27 @@
             background-color:blueviolet;
             text-decoration-color: blue;
             font-size: 1.1em;
+			height: 50px;
+			margin-top: 25px;
+			margin-bottom: 25px;
+			
         }
-
-navBar > ul{
-    list-style-type: none;
-    display: flex;
-    flex-flow: row-wrap;
-    line-height: 3em;
+#line {
+	display: flex;
 }
-
+#line li {list-style-type:none;flex: 1;} 
+ #line li:hover { background-color:black;
+}
+         
 navBar li {
     flex:1 1 8em;
 }
 navBar a {
     display: block;
 }
-
+#line li {float: left;
+    
+}
 navBar a:link, nav a:visited {
     color:#E7C24F;
     text-decoration: none;
@@ -128,8 +134,27 @@ a {
         #date {
             height: 55px;
         }
-        
-        .footer {
-            float: right;
-            margin-top: -63px;
-        }
+         .footer {
+    float: right;
+    margin-top: -63px;
+}
+img {
+    max-width: 100%;
+}
+		h4 {
+    	display: block;
+    	-webkit-margin-before: 1.33em;
+    	-webkit-margin-after: 1.33em;
+    	-webkit-margin-start: 0px;
+    	-webkit-margin-end: 0px;
+    	font-weight: bold;
+}
+      .name {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#navBar {
+	height: 50px;
+}
